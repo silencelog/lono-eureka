@@ -9,6 +9,9 @@
     "test": "mocha --require @babel/register"
   },
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "eureka-js-client": "^4.5.0"
   },
@@ -20,11 +23,8 @@
     "@babel/preset-env": "^7.10.1",
     "@babel/register": "^7.10.1",
     "mocha": "^6.2.3",
-    "nodemon": "^1.19.4"
+    "nodemon": "^2.0.4"
   },
-  "files": [
-    "lib"
-  ],
   "repository": {},
   "keywords": [
     "koa",
